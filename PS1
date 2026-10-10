@@ -17,21 +17,30 @@ This paper proposes four solutions:
 ## 2. Checks for a reviewer
 (a) Assess the scope of the proposed checklist.
 The authors state that the checklist applies to linear fixed-effects models. 
-Consider whether they explain why interpreting effects in terms of the standard deviation of the residualized independent variable is specific to linear models, 
+Check whether they explain why interpreting effects in terms of the standard deviation of the residualized independent variable is specific to linear models, 
 and to what extent their recommendations can be applied to nonlinear fixed-effects models such as logit or probit. 
 If the recommendations cannot be applied to nonlinear models without modification, 
 assess whether the paper makes this boundary sufficiently clear so that its conclusions are not read as applying to fixed-effects models more broadly.
 
-(b) 
+(b) Assess whether the variation in the residualized independent variable adequately represents the variation used for estimation. 
+The authors regress the treatment variable on the fixed-effect indicators and treat the standard deviation of the residuals as the amount of treatment variation used in fixed-effects estimation. 
+Check whether this approach accords with the logic of fixed-effects regression and whether the residualized standard deviation is a defensible measure of a “typical change.” 
+For models with multiple fixed effects, assess whether the distribution of the residualized treatment and the histogram of within-unit treatment ranges convey the same information. 
+Since the authors acknowledge that the range histogram does not fully account for two-way fixed effects, check how far it can serve as a guide to plausible counterfactual changes.
 
 ## 3. Evidence
-(a) the authors specify that the checklist applies “when researchers employ linear fixed effects models” (p. 834), 
+(a) The authors specify that the checklist applies “when researchers employ linear fixed effects models” (p. 834), 
 and their literature review focuses on studies using linear fixed-effects estimators (p. 830). 
 Thus, it would be inaccurate to say that they never specify the scope of their recommendations. 
 However, the title and abstract may give readers the impression that the paper addresses the interpretation of fixed-effects results more generally. 
 In particular, residualizing the treatment variable and interpreting the effect by multiplying the coefficient by the standard deviation of the residualized variable rely on the structure of a linear model.
 
-(b) 
+(b) The authors explain that regressing the treatment variable on the fixed-effect indicators and retaining the residuals isolates the variation in X used to estimate the coefficient of interest (p. 834). 
+They add that this approach can accommodate multiple fixed effects and may be preferable to manually demeaning the data (p. 834, fn. 12). 
+In their Snyder and Strömberg (2010) example, the treatment’s standard deviation falls from 0.286 to 0.068 after fixed effects are applied; 
+the mean within-unit range is about 0.05, the 95th percentile is about 0.36, and the treatment does not vary within the unit in roughly 44% of cases (pp. 831–32). 
+These figures illustrate the difference between the treatment’s overall variation and the variation remaining after fixed effects are accounted for. 
+However, the authors state that the within-unit range histogram does not fully capture the relevant variation under two-way fixed effects and present it only as a guide to within-unit counterfactuals (p. 831, Fig. 1 note).
 
 ## 4. Scope
 
