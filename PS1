@@ -1,0 +1,25 @@
+# <Paper short title>
+
+**Contributor:** <Na Yeon Kim>
+
+**Full citation:** <as given to you>
+
+## 1. What the paper establishes
+When using fixed-effects regression models, researchers often fail to capture the resulting large reduction in variance. This paper discusses two significant consequences of this omission.
+Namely, the inaccuracy in describing the variation under study and the use of counterfactual assumptions with low validity, such as discussing the effects of changes in independent variables that are rarely or never observed within entities.
+
+This paper proposes four solutions: 
+1. Do not merely present the magnitude of the coefficients; explain the variation from which those coefficients were derived and the actual extent of the change they represent. 
+2. Plot histograms to examine how frequently and significantly the treatment changed. Additionally, identify the proportion of observations where the treatment did not change at all within a unit.
+3. When explaining the results of a fixed-effects model, explicitly state the variation used to estimate the effect within the sentence. 
+4. Report the effect in the outcome’s original units and also in terms of the standard deviations of the original outcome Y and the outcome residualized with respect to the fixed effects, ỹ
+
+## 2. Checks for a reviewer
+
+## 3. Evidence
+
+## 4. Scope
+
+## 5. What failure looks like
+
+## 6. Test cases
