@@ -15,8 +15,23 @@ This paper proposes four solutions:
 4. Report the effect in the outcome’s original units and also in terms of the standard deviations of the original outcome Y and the outcome residualized with respect to the fixed effects, ỹ
 
 ## 2. Checks for a reviewer
+(a) Assess the scope of the proposed checklist.
+The authors state that the checklist applies to linear fixed-effects models. 
+Consider whether they explain why interpreting effects in terms of the standard deviation of the residualized independent variable is specific to linear models, 
+and to what extent their recommendations can be applied to nonlinear fixed-effects models such as logit or probit. 
+If the recommendations cannot be applied to nonlinear models without modification, 
+assess whether the paper makes this boundary sufficiently clear so that its conclusions are not read as applying to fixed-effects models more broadly.
+
+(b) 
 
 ## 3. Evidence
+(a) the authors specify that the checklist applies “when researchers employ linear fixed effects models” (p. 834), 
+and their literature review focuses on studies using linear fixed-effects estimators (p. 830). 
+Thus, it would be inaccurate to say that they never specify the scope of their recommendations. 
+However, the title and abstract may give readers the impression that the paper addresses the interpretation of fixed-effects results more generally. 
+In particular, residualizing the treatment variable and interpreting the effect by multiplying the coefficient by the standard deviation of the residualized variable rely on the structure of a linear model.
+
+(b) 
 
 ## 4. Scope
 
