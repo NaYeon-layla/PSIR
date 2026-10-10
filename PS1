@@ -43,7 +43,22 @@ These figures illustrate the difference between the treatment’s overall variat
 However, the authors state that the within-unit range histogram does not fully capture the relevant variation under two-way fixed effects and present it only as a guide to within-unit counterfactuals (p. 831, Fig. 1 note).
 
 ## 4. Scope
+Apply this check(a) when a study uses a linear fixed-effects regression model. 
+Do not apply it as written to pooled regressions without fixed effects or to nonlinear fixed-effects models such as logit or probit. 
+In nonlinear models, residualizing the treatment against fixed-effect indicators and interpreting the coefficient do not have the same straightforward interpretation as in a linear model.
+
+Apply this check(b) when a linear fixed-effects model uses treatment variation that remains after the fixed effects are absorbed. 
+A histogram of within-unit treatment ranges can be informative in panel designs with repeated observations within units; 
+with multiple fixed effects, however, it should not be treated as conveying the same information as the distribution of the residualized treatment. 
+The residualization procedure is unnecessary for models without fixed effects and should not be interpreted in the same way for nonlinear fixed-effects models such as logit or probit. 
+For binary treatments, changes typically consist of a switch from 0 to 1, so the reviewer should assess separately whether the residualized standard deviation is a meaningful measure of a “typical change.” 
 
 ## 5. What failure looks like
+The paper states that it focuses on linear fixed-effects models, residualizes the treatment variable with respect to the fixed effects, and reports the amount of variation used for estimation. 
+It also acknowledges that the histogram of within-unit treatment ranges does not fully account for two-way fixed effects. 
+Therefore, it would be inaccurate to criticize the authors for omitting or disregarding these points. 
+However, interpreting the standard deviation of the residualized treatment as a “typical change” is proposed as a useful practical guideline; 
+its validity across different treatment distributions and research contexts is not established. 
+The paper also does not explain how to apply this procedure to nonlinear fixed-effects models, so the checklist should not be generalized to all fixed-effects models.
 
 ## 6. Test cases
