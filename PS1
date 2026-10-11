@@ -17,9 +17,9 @@ This paper proposes four solutions:
 ## 2. Checks for a reviewer
 (a) Assess the scope of the proposed checklist.
 The authors state that the checklist applies to linear fixed-effects models. 
-Check whether they explain why interpreting effects in terms of the standard deviation of the residualized independent variable is specific to linear models, 
-and to what extent their recommendations can be applied to nonlinear fixed-effects models such as logit or probit. 
-Assess whether the paper makes this boundary sufficiently clear so that its conclusions are not read as applying to fixed-effects models more broadly.
+Check whether they explain why interpreting effects in terms of the standard deviation of the residualized independent variable is specific to linear models.
+If the recommendations cannot be applied to nonlinear models without modifications,
+sssess whether the paper makes this boundary sufficiently clear so that its conclusions are not read as applying to fixed-effects models more broadly.
 
 (b) Assess whether the variation in the residualized independent variable adequately represents the variation used for estimation. 
 The authors regress the treatment variable on the fixed-effect indicators and treat the standard deviation of the residuals as the amount of treatment variation used in fixed-effects estimation. 
